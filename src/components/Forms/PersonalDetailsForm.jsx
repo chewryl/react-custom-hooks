@@ -22,6 +22,12 @@ const PersonalDetailsForm = ({ title }) => {
         message: "First name must be at least two characters"
       }
     ],
+    LastName: [
+      {
+        validator: validations.required,
+        message: "Last name is required"
+      }
+    ],
     Email: [
       {
         validator: validations.required,
